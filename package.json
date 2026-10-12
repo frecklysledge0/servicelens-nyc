@@ -1,0 +1,16 @@
+{
+  "name": "servicelens-nyc",
+  "version": "1.0.0",
+  "description": "ServiceLens NYC — Civic Data Intelligence MVP",
+  "scripts": {
+    "dev": "npm --prefix web run dev",
+    "build": "npm --prefix web run build",
+    "start": "npm --prefix web run start",
+    "lint": "npm --prefix web run lint",
+    "worker": "python worker/run_pipeline.py",
+    "test:python": "python -m unittest discover tests"
+  },
+  "keywords": ["civic-tech", "nyc-311", "machine-learning", "nextjs", "scikit-learn"],
+  "author": "",
+  "license": "Apache-2.0"
+}

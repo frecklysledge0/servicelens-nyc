@@ -1,0 +1,40 @@
+# Python virtual environments & bytecode
+.venv*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Node.js & Next.js build outputs
+node_modules/
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables & local secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Heavy raw historical datasets & research artifacts
+predata.csv
+pothole_audit.parquet
+pothole_model_ready.parquet
+*.db
+*.sqlite
+*.sqlite3
+data/
+
+# Jupyter notebooks checkpoints & OS files
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
